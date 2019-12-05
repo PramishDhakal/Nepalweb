@@ -1,0 +1,162 @@
+/*total length of the window: 2000px*/
+
+body{
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	background-color: light blue;
+	overflow: hidden;
+	box-shadow: 0 0px 10px 0px #107890;
+}
+
+#logo img{
+	width: auto;
+	height: 65px;
+	padding-left: 110px;
+	float: left;
+	
+}
+
+nav{
+	margin-left: 100px;
+	float: left;
+}
+
+ul{
+		list-style: none;
+}
+
+
+ li{
+ 	display: inline-block;
+ 	color: white;
+ 	font-size: 1.2em;
+ 	font-weight: bold;
+ 	padding: 0 20px;
+ }
+
+ #this{
+ 	background-color: #dc143c;
+ 	color: white;
+ }
+
+a{
+	padding: 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;	
+}
+
+a:hover{
+	background-color: #dc143c;
+	cursor: pointer;
+	border-radius: 3px;
+	color: white;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 5px;	
+}
+
+
+	
+
+.socialbar{
+	float: right;
+}
+
+.socialbar img{
+	width: 35px;
+	height: auto;
+	padding: 7px;
+	opacity: 1;
+	-webkit-transition: opacity linear;
+    transition: opacity linear;
+}
+
+.socialbar img:hover{
+	opacity: 0.5;
+}
+
+
+
+body{
+background-color: #DEF1FA;
+}
+
+
+#container{
+	background-color: #DEF1FA;
+	width: 1060px;
+	float: left;
+	margin: 20px 0 0 100px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+
+
+
+.items img{
+	height: 400px;
+	width: auto;
+}
+
+#learnmore{
+	width: 150px;
+	border-radius: 3px;
+	border-color: #003893;
+}
+
+.price{
+	padding: 0,5,0,5;
+	clear: both;
+	width: 150px;
+	background-color: #dc143c;
+	margin-left: 150px;
+	text-align: center;
+	color: white;	
+	font-weight: bold;
+	-webkit-transition: width ease;
+    transition: width ease;
+}
+
+.price:hover{
+	width: 203px;
+}
+
+
+
+footer{
+	clear: both;
+	text-align: center;
+	color: white;
+	width: 100%;
+	background-color: #003893;
+	overflow: hidden;
+}
+
+
+div.gallery {
+    margin: 7px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 200px;
+    
+}
+
+div.gallery:hover {
+    border: 3px solid #777;
+    
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
